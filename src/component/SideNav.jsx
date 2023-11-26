@@ -52,7 +52,7 @@ const SideNav = () => {
           </li>
           <li className="hover:bg-yellow-500">
             <Link
-              to="/"
+              to="candidates"
               className="
       text-white
       flex
@@ -91,7 +91,7 @@ const SideNav = () => {
           </li>
           <li className="hover:bg-yellow-500">
             <Link
-              to="/"
+              to="job"
               className="
       text-white
       flex

@@ -4,4 +4,15 @@ import { DashBoard } from "./component/DashBoard";
 import { Employee } from "./component/Employee";
 import { EmpolyeeCard } from "./component/EmpolyeeCard";
 import { EmployeeDetails } from "./component/EmployeeDetails";
-export { Home, SideNav, EmployeeDetails, EmpolyeeCard, DashBoard, Employee };
+import { Candidates } from "./component/Candidates";
+import { Job } from "./component/Job";
+export {
+  Home,
+  SideNav,
+  Candidates,
+  EmployeeDetails,
+  EmpolyeeCard,
+  DashBoard,
+  Employee,
+  Job,
+};

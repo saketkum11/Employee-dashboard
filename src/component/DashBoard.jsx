@@ -17,7 +17,7 @@ const DashBoard = () => {
           employees to ensure an innovative experience for our users.
         </p>
         <h4 className="mt-8  font-semibold">Objectives </h4>
-        <div className="flex gap-2 mt-4">
+        <div className="flex gap-2 mt-4 flex-wrap">
           <p className="bg-orange-500 text-white flex-1 px-2 py-2 rounded-md border-2 text-center">
             Culture Value
           </p>
@@ -40,7 +40,7 @@ const DashBoard = () => {
           needs.
         </p>
         <h4 className="mt-8  font-semibold">Features</h4>
-        <div className="flex gap-2 mt-4">
+        <div className="flex gap-2 mt-4 flex-wrap">
           <p className="mt-2 border-2 border-cyan-500 p-2 rounded-md text-cyan-500">
             Track Employee
           </p>

@@ -1,5 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import { DashBoard, Employee, EmployeeDetails, Home } from "./server";
+import {
+  Candidates,
+  DashBoard,
+  Employee,
+  EmployeeDetails,
+  Home,
+  Job,
+} from "./server";
 
 const MyRouter = () => {
   return (
@@ -9,6 +16,8 @@ const MyRouter = () => {
           <Route path="dashboard" element={<DashBoard />} />
           <Route path="employee" element={<Employee />}></Route>
           <Route path="employee/:id" element={<EmployeeDetails />} />
+          <Route path="candidates" element={<Candidates />} />
+          <Route path="job" element={<Job />} />
         </Route>
       </Routes>
     </>
