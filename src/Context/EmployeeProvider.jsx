@@ -5,7 +5,7 @@ const useEmployee = () => useContext(EmployeeContext);
 // eslint-disable-next-line react/prop-types
 const EmployeeProvider = ({ children }) => {
   const [data, setData] = useState([]);
-
+  const [toggle, setToggle] = useState(false);
   const [employeData, setEmployeData] = useState({});
 
   useEffect(() => {
@@ -29,6 +29,8 @@ const EmployeeProvider = ({ children }) => {
         setData,
         employeData,
         setEmployeData,
+        toggle,
+        setToggle,
       }}
     >
       {children}

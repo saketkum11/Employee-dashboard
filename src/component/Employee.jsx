@@ -5,6 +5,7 @@ import { EmpolyeeCard } from "./EmpolyeeCard";
 const Employee = () => {
   const { data, setData } = useEmployee();
   const [searchData, setSearchData] = useState("");
+
   const handleChange = (e) => {
     setSearchData(e.target.value);
   };
@@ -16,8 +17,8 @@ const Employee = () => {
     <>
       <div className=" mt-8">
         <div className="flex justify-center">
-          <section className="flex justify-between">
-            <div className="flex justify-between gap-4">
+          <section className="flex justify-between relative">
+            <div className="flex justify-center flex-wrap gap-4">
               <input
                 type="text"
                 className="bg-gray-500 rounded-2xl placeholder:pl-4 placeholder:text-white text-white px-4 py-2  "
